@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="block">
+      <h1 id="title"></h1>
+      <input type="date" placeholder="Date" id="date">
+      <br>
+      <br>
+      <input list="courts" placeholder="Location" id="location">
+      <datalist id="courts">
+        <option value="Young's_Ville_NH"></option>
+        <option value="Deerfield_Park_NH"></option>
+      </datalist>
+      <br>
+      <br>
+      <input list="players" placeholder="Player" id="player">
+      <datalist id="players">
+      <option value="Brian"></option>
+      <option value="Mauricio"></option>
+      </datalist>
+      <input type="number" id="score" value="">
+      <br>
+      <input list="players" placeholder="Player" id="player">
+      <datalist id="players">
+      <option value="1"></option>
+      <option value="2"></option>
+    </datalist>
+    <input type="number" id="score" value="">
+<br>
+<br>
+      <input type="submit" id="submit" onclick="submit()">
+    </div>
+  <script src="script.js">
+</script>
+</body>
+</html>

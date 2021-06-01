@@ -1,0 +1,38 @@
+#title {
+  color: darkGreen;
+}
+
+html {
+  font-family: optima;
+border-radius:30px;
+width: 600px;
+border: solid 1px darkGreen;
+}
+#block{
+  border-radius: 30px;
+padding: 10px;
+text-align: center;
+background-image: url("background.jpg");
+background-position: top;
+background-repeat:space;
+background-size: contain;
+}
+#date{
+
+}
+#location{
+
+}
+.player{
+
+}
+#player {
+
+}
+#score{
+
+}
+input{
+  font-family: optima;
+  color: darkGreen;
+}
